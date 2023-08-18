@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int main(){
+
     // entrada de dados e especificadores 
     
     printf("Hello, world!\n");
@@ -9,7 +10,7 @@ int main(){
     printf("oi tenho 19 anos!\n");
     printf("valor inteiro: %d.\n",10);
     printf("valor real: %f. \n", 3.14159265);
-    printf("valor real com apenas duas casas: %.2f. \n",3.141592);
+    printf("valor real com apenas duas casas: %.2f. \n",3.141592); // é arrendondado
     printf("dado de texto: %c. \n",'a');
     printf("dado de texto: %s.\n","testando");
 
